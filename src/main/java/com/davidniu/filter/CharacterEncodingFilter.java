@@ -9,7 +9,7 @@ import java.io.IOException;
  * 过滤所有请求  /*
  */
 @WebFilter("/*")
-public class CharacterEncoding implements Filter {
+public class CharacterEncodingFilter implements Filter {
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
